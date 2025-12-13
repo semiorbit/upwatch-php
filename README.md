@@ -2,7 +2,7 @@
 
 This package is the PHP-side companion for **Semiorbit UpWatch**.
 
-It only registers uploaded files for scanning (** using Maldet on RHEL based linux **) by the server-level UpWatch system.
+It only registers uploaded files for scanning (**using Maldet on RHEL based linux**) by the server-level UpWatch system.
 
 ## Installation
 
