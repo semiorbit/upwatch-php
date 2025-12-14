@@ -14,6 +14,12 @@ Install from GitHub:
 
 [https://github.com/semiorbit/upwatch](https://github.com/semiorbit/upwatch)
 
+### 3. Install semiorbit/upwatch PHP package in your web project
+Note that your project should have a folder (create it) 
+```shell
+/home/USER/YOUR-PROJECT/var/log
+```
+
 
 ```bash
 composer require semiorbit/upwatch
