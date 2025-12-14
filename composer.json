@@ -3,7 +3,19 @@
   "description": "PHP helper for Semiorbit UpWatch upload scanning system",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.0.6",
+
+  "authors": [
+    {
+      "name": "Ibrahim Khalil Khalbous",
+      "email": "ibrahim@semiorbit.com"
+    },
+    {
+      "name": "Semiorbit Solution Co. LLC",
+      "email": "framework@semiorbit.com",
+      "homepage": "https://semiorbit.com"
+    }
+  ],
 
   "autoload": {
     "psr-4": {
