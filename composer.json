@@ -3,11 +3,14 @@
   "description": "PHP helper for Semiorbit UpWatch upload scanning system",
   "type": "library",
   "license": "MIT",
+  "version": "1.0.4",
+
   "autoload": {
     "psr-4": {
       "SemiorbitUpWatch\\": "src/"
     }
   },
+
   "require": {
     "php": ">=7.4"
   }
