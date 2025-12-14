@@ -2,9 +2,18 @@
 
 This package is the PHP-side companion for **Semiorbit UpWatch**.
 
-It only registers uploaded files for scanning (**using Maldet on RHEL based linux**) by the server-level UpWatch system.
+It only registers uploaded files for scanning (**using ClamAV/clamscan on RHEL based linux**) by the server-level UpWatch system.
 
 ## Installation
+
+### 1. Install ClamAV (clamscan)
+Make sure ClamAV is installed and working on your server.
+
+### 2. Install Semiorbit UpWatch (Linux)
+Install from GitHub:
+
+[https://github.com/semiorbit/upwatch](https://github.com/semiorbit/upwatch)
+
 
 ```bash
 composer require semiorbit/upwatch
@@ -41,4 +50,6 @@ curl -fsSL https://raw.githubusercontent.com/semiorbit/UpWatch/main/install.sh |
 
 ## License
 
-MIT
+
+MIT License  
+2026 © Semiorbit Solutions
